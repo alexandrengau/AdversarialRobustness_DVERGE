@@ -39,11 +39,12 @@ When your code will be test, we will execute:
   > ./ model_ensemble_test.py
 
 **modifying the parameters**
-All paramaters are set in the config.json file, loaded within the functions each time it is necessary.
-This includes: epochs, batch_size, lr, different epsilons, different alphas ...
-Except: 
-    - testing arguments, in the parser of the main function of the test_project.py file
-    - the adversarial traing mode, in the main function of the dverge.py file (see below)
+  
+    All paramaters are set in the config.json file, loaded within the functions each time it is necessary.
+    This includes: epochs, batch_size, lr, different epsilons, different alphas ...
+    Except: 
+      - testing arguments, in the parser of the main function of the test_project.py file
+      - the adversarial traing mode, in the main function of the dverge.py file (see below)
 
 **set the DVERGE model into adversarial training (DVERGE+AdvT method)**
 

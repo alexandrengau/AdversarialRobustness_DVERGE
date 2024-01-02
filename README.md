@@ -36,7 +36,7 @@ When your code will be test, we will execute:
   > ./test_project.py
 
 **test the ensemble model**
-  > ./ model_ensemble_test.py
+  > ./model_ensemble_test.py
 
 **modifying the parameters**
   
